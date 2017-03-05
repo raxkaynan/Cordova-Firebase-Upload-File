@@ -12,8 +12,8 @@
 				var reader = new FileReader();
 				reader.onloadend = function() {
 					var type = uFileType || file.type;
-				    var blob = new Blob([new Uint8Array(this.result)], { type: type });
-				    uploadToFirebase(blob);
+					var blob = new Blob([new Uint8Array(this.result)], { type: type });
+					uploadToFirebase(blob);
 			 	};
 			 	reader.readAsArrayBuffer(file);
 			});
@@ -24,13 +24,13 @@
 		}
 
 		function uploadToFirebase(blob) {
-		    firebase.storage().ref(storageRef).put(blob, {contentType: blob.type})
-		        .then(function(snapshot) {
-		        	d.resolve(snapshot);
-		        })
-		        .catch(function(err) {
-		            d.reject(err);
-		        });
+			firebase.storage().ref(storageRef).put(blob, {contentType: blob.type})
+				.then(function(snapshot) {
+					d.resolve(snapshot);
+				})
+				.catch(function(err) {
+					d.reject(err);
+				});
 		}
 		return d.promise();
 	};
