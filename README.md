@@ -25,7 +25,7 @@ The example usage is taking a picture and uploading it to Firebase
 		destinationType: Camera.DestinationType.FILE_URI
 	};
 	navigator.camera.getPicture(function(imageURI) {
-		cf-upload-file(storageRef, imageURI, "image/jpeg")
+		cfUploadFile(storageRef, imageURI, "image/jpeg")
 			.then(function(snapshot) {
 				// upload success, handle returned snapshot (firebase.storage.UploadTaskSnapshot)
 			}).catch(function(err) {
@@ -35,4 +35,4 @@ The example usage is taking a picture and uploading it to Firebase
 		// cordova error
 	}, options);
 
-The function `cf-upload-file` takes 3 parameters (all string types). The first parameter will be your **Firebase storage path**, which is the location in which you would want to store the file. The second parameter will be the **file URI**. And lastly, the third parameter will be the **file type**.
+The function `cfUploadFile` takes 3 parameters (all string types). The first parameter will be your **Firebase storage path**, which is the location in which you would want to store the file. The second parameter will be the **file URI**. And lastly, the third parameter will be the **file type**.
