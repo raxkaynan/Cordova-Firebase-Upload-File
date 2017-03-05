@@ -1,0 +1,15 @@
+{
+  "name": "cf-upload-file",
+  "description": "A JavaScript function for uploading a local file (using its URI) to Firebase storage.",
+  "authors": [
+    "Rax Canaan Layumas <raxkaynan@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "file",
+    "upload",
+    "storage"
+  ]
+}

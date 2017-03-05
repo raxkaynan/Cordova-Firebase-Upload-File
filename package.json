@@ -1,0 +1,25 @@
+{
+  "name": "cf-upload-file",
+  "version": "1.0.0",
+  "description": "A JavaScript function for uploading a local file (using its URI) to Firebase storage.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raxkaynan/Cordova-Firebase-Upload-File.git"
+  },
+  "keywords": [
+    "cordova",
+    "firebase",
+    "file",
+    "upload",
+    "storage"
+  ],
+  "author": "Rax Canaan Layumas <raxkaynan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raxkaynan/Cordova-Firebase-Upload-File/issues"
+  },
+  "homepage": "https://github.com/raxkaynan/Cordova-Firebase-Upload-File#readme"
+}
