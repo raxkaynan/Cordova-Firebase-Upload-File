@@ -28,7 +28,7 @@ The example usage is taking a picture and uploading it to Firebase
 		cfUploadFile(storageRef, imageURI, "image/jpeg")
 			.then(function(snapshot) {
 				// upload success, handle returned snapshot (firebase.storage.UploadTaskSnapshot)
-			}).catch(function(err) {
+			}).fail(function(err) {
 				// handle error
 			});
 	}, function(err) {
