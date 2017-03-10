@@ -13,8 +13,6 @@ Include [the javascript file (minified)](https://raw.githubusercontent.com/raxka
 
 The example usage is taking a picture and uploading it to Firebase
 
-	// Do not forget to include the file (<script src='path/to/cf-upload-file.js'></script>)
-
 	var storageRef = "path/to/firebase/storage";
 	var options = { 
 		sourceType: Camera.PictureSourceType.CAMERA,
