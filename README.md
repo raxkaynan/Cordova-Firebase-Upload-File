@@ -5,13 +5,9 @@ A JavaScript function for uploading a local file (using its URI) to Firebase sto
 
 The function requires [jQuery](https://github.com/jquery/jquery).
 
-## Installing
+## Installation
 
-`npm install cf-upload-file`
-
-or
-
-`bower install cf-upload-file`
+Include [the javascript file (minified)](https://raw.githubusercontent.com/raxkaynan/Cordova-Firebase-Upload-File/master/cf-upload-file.min.js).
 
 ## Example Usage
 
